@@ -1,0 +1,12 @@
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - tqdm
+  - numpy
+  - pytorch::faiss-cpu
+  - metric-learning::pytorch-metric-learning=0.9.86
+  - python-lmdb
+  - pip
+  - pip:
+    - hsluv
